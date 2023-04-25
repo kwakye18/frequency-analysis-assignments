@@ -35,7 +35,7 @@ int main() {
     for (auto it = frequency.begin(); it != frequency.end(); ++it) {
         char c = it->first;
         int count = it->second;
-        float freq = (float) count / total_chars;
+        float freq = (float) count;
         normalized_frequency[c] = freq;
     }
 
